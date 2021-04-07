@@ -1,0 +1,38 @@
+//Инициализация git
+git init
+
+//Добавление файла (не добавляет новые файлы)
+git add .
+git add README.md
+
+//Добавить новыые файлы
+git add -A
+
+//Коммит
+git commit -m "first commit"
+
+//Выбор ветки
+git branch -M main
+
+//Добаление в определенный репозиторий всего проекта
+git remote add origin https://github.com/jesus4damn/excel.git
+
+//Пуш в определенную ветку
+git push -u origin main
+
+//Добавление новой ветки
+git checkout -b "webpack"
+
+//Дальше все тоже самое
+git add .
+git commit -m "create webpack commit"
+git push -u origin webpack
+
+// Список веток и активную из них
+git branch
+
+//Объединить ветку указаную с активной
+git merge
+
+//Вывод списка последних коммитов
+git log
